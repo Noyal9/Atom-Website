@@ -1,0 +1,117 @@
+.services {
+  width: 100%;
+  padding: 100px 0;
+  background: #ffffff;
+}
+
+.service-box {
+  box-shadow: 0 6px 18px rgba(0,0,0,0.06);
+}
+
+
+.services-container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 80px;   /* more side spacing */
+
+  display: flex;
+  align-items: center;
+  gap: 90px;         /* space between image and content */
+}
+
+/* IMAGE */
+
+.services-image img {
+  width: 420px;
+  margin-left: -30px;
+}
+
+.services-image img {
+  width: 460px;
+}
+
+
+/* CONTENT */
+
+.services-content {
+  flex: 1;
+}
+
+.services-tag {
+  background: #ffe6c2;
+  color: #d98c00;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.services-content h2 {
+  font-size: 42px;
+  margin: 18px 0;
+  line-height: 1.2;
+  color: #000;
+}
+
+.services-content h2 span {
+  color: #d98c00;
+}
+
+.services-content p {
+  color: #333;
+  max-width: 520px;
+  line-height: 1.6;
+  margin-bottom: 30px;
+}
+
+/* GRID */
+
+.services-boxes {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 22px;
+}
+
+/* BOX STYLE */
+
+.service-box {
+  background: #ffffff;           /* white background */
+  color: #000000;                /* black text */
+  padding: 18px 22px;
+  border-radius: 14px;
+
+  display: flex;
+  align-items: center;
+  gap: 12px;
+
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+
+  border: 2px solid #f4a000;     /* orange border */
+
+  transition: 0.3s;
+}
+
+/* ICON COLOR */
+
+.icon {
+  font-size: 20px;
+  color: #f4a000;               /* orange icons */
+}
+
+/* HOVER EFFECT */
+
+.service-box:hover {
+  background: #f4a000;
+  color: white;
+  transform: translateY(-3px);
+}
+
+.service-box:hover .icon {
+  color: white;
+}
+
+.services-content h2 {
+  line-height: 1.1;
+}

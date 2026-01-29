@@ -1,0 +1,118 @@
+/* =========================
+   HERO SECTION
+========================= */
+
+.hero{
+  padding:90px 0;
+  background:#ffffff;
+}
+
+.hero{
+  padding:90px 0;
+  overflow:hidden;
+}
+
+/* Layout */
+.hero-wrapper{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  gap:60px;
+  padding-left:60px;
+  padding-right:60px;
+}
+
+/* LEFT SIDE TEXT */
+.hero-text{
+  flex:1;
+}
+
+.hero-text h1{
+  font-size:54px;
+  font-weight:700;
+  line-height:1.1;
+  color:#000;
+  margin-bottom:20px;
+}
+
+.hero-text h1 span{
+  color:#d28a07;   /* ATOM Orange */
+}
+
+.hero-text p{
+  font-size:15px;
+  line-height:1.7;
+  color:#555;
+  margin-bottom:18px;
+  max-width:520px;
+}
+
+/* BUTTONS */
+.hero-buttons{
+  margin-top:30px;
+  display:flex;
+  gap:18px;
+}
+
+.primary-btn{
+  background:#d28a07;
+  color:#fff;
+  border:none;
+  padding:12px 28px;
+  border-radius:8px;
+  font-size:15px;
+  cursor:pointer;
+}
+
+.secondary-btn{
+  background:#fff;
+  color:#d28a07;
+  border:1.5px solid #d28a07;
+  padding:12px 28px;
+  border-radius:8px;
+  font-size:15px;
+  cursor:pointer;
+}
+
+/* RIGHT SIDE IMAGE */
+.hero-image{
+  flex:1;
+  display:flex;
+  justify-content:flex-end;
+}
+
+.hero-image img{
+  width:100%;
+  max-width:450px;
+  height:auto;
+}
+
+/* =========================
+   RESPONSIVE
+========================= */
+
+@media (max-width:992px){
+  .hero-wrapper{
+    flex-direction:column;
+    text-align:center;
+  }
+
+  .hero-text p{
+    margin:0 auto 18px;
+  }
+
+  .hero-buttons{
+    justify-content:center;
+  }
+
+  .hero-image{
+    justify-content:center;
+    margin-top:40px;
+  }
+}
+
+@media (max-width:576px){
+  .hero-text h1{
+    font-size:38px;
+  }
+}

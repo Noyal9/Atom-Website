@@ -1,0 +1,75 @@
+/* ================= NAVBAR ================= */
+
+.navbar{
+  width:100%;
+  background:#ffffff;
+  border-bottom:1px solid #e5e5e5;
+}
+
+/* Uses global container */
+.nav-container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between;
+  height:80px;
+}
+
+/* Logo */
+
+.logo{
+  height:100px;
+  cursor:pointer;
+}
+
+/* Menu */
+
+.nav-links{
+  list-style:none;
+  display:flex;
+  gap:35px;
+}
+
+.nav-links li{
+  font-size:16px;
+  color:#333;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.nav-links li:hover{
+  color:#f4a100;
+}
+
+/* Active page */
+
+.active{
+  color:#f4a100;
+  font-weight:600;
+}
+
+/* Register Button */
+
+.nav-btn{
+  background:#f4a100;
+  color:#fff;
+  border:none;
+  padding:12px 28px;
+  border-radius:25px;
+  font-size:15px;
+  cursor:pointer;
+  transition:0.3s;
+}
+
+.nav-btn:hover{
+  background:#d89000;
+}
+
+/* ================= RESPONSIVE ================= */
+
+@media (max-width:768px){
+
+  .nav-links{
+    display:none;   /* later we add mobile menu */
+  }
+
+}

@@ -2,8 +2,8 @@
 
 .navbar{
   width:100%;
-  background:#ffffff;
-  border-bottom:1px solid #e5e5e5;
+  background:#fffaf4;   /* same as testimonials */
+  border-bottom:1px solid #f0e0c5;
 }
 
 /* Uses global container */
@@ -44,7 +44,7 @@
 
 .active{
   color:#f4a100;
-  font-weight:600;
+  font-weight:400;
 }
 
 /* Register Button */
@@ -72,4 +72,22 @@
     display:none;   /* later we add mobile menu */
   }
 
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:#333;
+}
+
+.nav-links a:hover{
+  color:#f4a100;
+}
+
+.nav-links a{
+  text-decoration:none;
+  color:#333;
+}
+
+.nav-links a:hover{
+  color:#f4a100;
 }

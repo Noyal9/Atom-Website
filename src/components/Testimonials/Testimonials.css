@@ -1,0 +1,128 @@
+.testimonials{
+  padding:100px 8%;
+  text-align:center;
+  background:#fffaf4;
+}
+
+/* Badge */
+.testi-badge{
+  display:inline-block;
+  background:#ffe6bf;
+  color:#f4a100;
+  padding:6px 14px;
+  border-radius:20px;
+  font-size:13px;
+  font-weight:600;
+  margin-bottom:12px;
+}
+
+/* Title */
+.title{
+  font-size:46px;
+  font-weight:800;
+  margin-bottom:60px;
+}
+
+.title span{
+  color:#f4a100;
+}
+
+/* Slider Layout */
+.slider{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  gap:30px;
+}
+
+.cards{
+  display:flex;
+  gap:25px;
+}
+
+/* Cards */
+.card{
+  background:white;
+  padding:30px;
+  width:280px;
+  border-radius:14px;
+  box-shadow:0 10px 30px rgba(0,0,0,0.1);
+  transition:0.4s;
+}
+
+.card p{
+  font-size:14px;
+  line-height:1.6;
+  color:#444;
+}
+
+.card h4{
+  margin-top:15px;
+  font-size:16px;
+}
+
+.card span{
+  font-size:13px;
+  color:#777;
+}
+
+/* Center Card */
+.card.active{
+  transform:scale(1.15);
+  border:2px solid #f4a100;
+}
+
+/* Side Cards */
+.card.small{
+  opacity:0.6;
+  transform:scale(0.9);
+}
+
+/* Arrows */
+.arrow{
+  background:#f4a100;
+  border:none;
+  color:white;
+  font-size:22px;
+  padding:12px 16px;
+  border-radius:50%;
+  cursor:pointer;
+}
+
+.arrow:hover{
+  background:#d89000;
+}
+
+/* Dots */
+.dots{
+  margin-top:40px;
+}
+
+.dot{
+  width:10px;
+  height:10px;
+  background:#ccc;
+  border-radius:50%;
+  display:inline-block;
+  margin:0 6px;
+}
+
+.active-dot{
+  background:#f4a100;
+}
+
+/* Responsive */
+@media(max-width:768px){
+
+  .cards{
+    flex-direction:column;
+  }
+
+  .card.small{
+    display:none;
+  }
+
+  .card.active{
+    transform:scale(1);
+  }
+}

@@ -1,16 +1,23 @@
 import "./Hero.css";
-import heroImg from "../../assets/images/hero.png";
+import heroImg from "../../assets/images/hero.png"; // use your existing image
 
 function Hero() {
   return (
     <section className="hero">
-      <div className="container hero-wrapper">
 
+      {/* TOP BIG TITLE */}
+      <h1 className="hero-main-title">
+        Why you should choose <span>ATOM</span>?
+      </h1>
+
+      <div className="hero-wrapper">
+
+        {/* LEFT CONTENT */}
         <div className="hero-text">
-          <h1>
+          <h2>
             We <span>simplify</span> growth <br />
             using <span>ATOM</span>.
-          </h1>
+          </h2>
 
           <p>
             ATOM is a service-based technology company delivering reliable,
@@ -23,8 +30,8 @@ function Hero() {
           </p>
 
           <p>
-            ATOM provides end-to-end technology and digital services designed to
-            help businesses grow, scale, and operate efficiently.
+            ATOM provides end-to-end technology and digital services designed
+            to help businesses grow, scale, and operate efficiently.
           </p>
 
           <div className="hero-buttons">
@@ -33,8 +40,9 @@ function Hero() {
           </div>
         </div>
 
+        {/* RIGHT IMAGE */}
         <div className="hero-image">
-          <img src={heroImg} alt="Developer" />
+          <img src={heroImg} alt="Hero" />
         </div>
 
       </div>

@@ -1,0 +1,69 @@
+/* =========================
+   REGISTER PAGE
+========================= */
+
+.register{
+  min-height:100vh;
+  background:#f8f8f8;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+
+.register-card{
+  background:#ffffff;
+  width:100%;
+  max-width:420px;
+  padding:40px;
+  border-radius:12px;
+  box-shadow:0 0 20px rgba(0,0,0,0.08);
+  text-align:center;
+}
+
+.register-card h2{
+  font-size:28px;
+  margin-bottom:10px;
+}
+
+.register-card p{
+  color:#666;
+  margin-bottom:25px;
+}
+
+/* Inputs */
+
+.register-card input{
+  width:100%;
+  padding:12px;
+  margin-bottom:12px;
+  border-radius:6px;
+  border:1px solid #ccc;
+  font-size:14px;
+}
+
+/* Button */
+
+.register-card button{
+  width:100%;
+  background:#f4a100;
+  color:white;
+  border:none;
+  padding:12px;
+  font-size:15px;
+  border-radius:6px;
+  cursor:pointer;
+}
+
+.register-card button:hover{
+  background:#d89000;
+}
+
+/* Error text */
+
+.error{
+  display:block;
+  color:red;
+  font-size:12px;
+  text-align:left;
+  margin-bottom:8px;
+}

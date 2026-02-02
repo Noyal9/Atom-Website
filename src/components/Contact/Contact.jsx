@@ -44,12 +44,12 @@ function Contact() {
         <div className="contact-col big-col">
           <h4 className="contact-heading">Products</h4>
           <ul>
-            <li><a href="#">Custom Web Applications</a></li>
-            <li><a href="#">Business Software Solutions</a></li>
-            <li><a href="#">Digital Platforms</a></li>
-            <li><a href="#">Cloud-Based Systems</a></li>
-            <li><a href="#">Enterprise Tools</a></li>
-            <li><a href="#">Ongoing Product Support</a></li>
+            <li><a href="/products">Custom Web Applications</a></li>
+            <li><a href="/products">Business Software Solutions</a></li>
+            <li><a href="/products">Digital Platforms</a></li>
+            <li><a href="/products">Cloud-Based Systems</a></li>
+            <li><a href="/products">Enterprise Tools</a></li>
+            <li><a href="/products">Ongoing Product Support</a></li>
           </ul>
         </div>
 
@@ -57,11 +57,12 @@ function Contact() {
         <div className="contact-col big-col">
           <h4 className="contact-heading">Legal</h4>
           <ul>
-            <li><a href="#">Terms & Conditions</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Cookie Policy</a></li>
-            <li><a href="#">Data Protection</a></li>
-            <li><a href="#">Disclaimer</a></li>
+            <li><a href="/legal">Terms & Conditions</a></li>
+<li><a href="/legal">Privacy Policy</a></li>
+<li><a href="/legal">Cookie Policy</a></li>
+<li><a href="/legal">Data Protection</a></li>
+<li><a href="/legal">Disclaimer</a></li>
+
           </ul>
         </div>
 

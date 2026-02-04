@@ -1,5 +1,5 @@
 import "./About.css";
-import aboutImg from "../../assets/images/services.png";   // changed image
+import services from "../../assets/images/services.png";
 
 function About() {
   return (
